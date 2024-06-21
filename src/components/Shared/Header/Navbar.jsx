@@ -13,30 +13,30 @@ const Navbar = () => {
 	};
 
 	return (
-		<div>
-			<nav className="navbar">
+		<div className="mx-[2rem] mt-[2rem]">
+			<nav className="navbar bg-slate-200 pt-2">
 				<div className="container">
 					<div className="logo">
 						<Logo />
 					</div>
-					<div className="menu-icon" onClick={handleShowNavbar}>
+					<button className="menu-icon" onClick={handleShowNavbar}>
 						<Hamburger />
-					</div>
+					</button>
 					<div className={`nav-elements  ${showNavbar && "active"}`}>
 						<ul>
-							<li>
+							<li className="border border-slate-500 rounded-xl ">
 								<Link to="/">Home</Link>
 							</li>
-							<li>
-								<Link to="/blogs">Blogs</Link>
-							</li>
-							<li>
-								<Link to="/projects">Projects</Link>
-							</li>
-							<li>
+							<li className="border border-slate-500 rounded-xl ">
 								<Link to="/About">About</Link>
 							</li>
-							<li>
+							<li className="border border-slate-500 rounded-xl ">
+								<Link to="/projects">Projects</Link>
+							</li>
+							<li className="border border-slate-500 rounded-xl ">
+								<Link to="/blogs">Blogs</Link>
+							</li>
+							<li className="border border-slate-500 rounded-xl ">
 								<Link to="/contact">Contact</Link>
 							</li>
 						</ul>
