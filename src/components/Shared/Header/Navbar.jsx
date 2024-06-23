@@ -13,8 +13,8 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className="mx-[2rem] mt-[2rem]">
-			<nav className="navbar bg-slate-200 pt-2">
+		<div className="mx-[1rem] lg:mx-[2rem] mt-[2rem]">
+			<nav className="navbar  bg-slate-300 pt-2">
 				<div className="container">
 					<div className="logo">
 						<Logo />
@@ -24,20 +24,20 @@ const Navbar = () => {
 					</button>
 					<div className={`nav-elements  ${showNavbar && "active"}`}>
 						<ul>
-							<li className="border border-slate-500 rounded-xl ">
+							<li className="border md:border-1 md:border-slate-600 rounded-xl ">
 								<Link to="/">Home</Link>
 							</li>
-							<li className="border border-slate-500 rounded-xl ">
-								<Link to="/About">About</Link>
+							<li className=" border md:border-1 md:border-slate-600 inline-block overflow-hidden rounded-xl ">
+								<Link to="#About">About</Link>
 							</li>
-							<li className="border border-slate-500 rounded-xl ">
-								<Link to="/projects">Projects</Link>
+							<li className="border md:border-1 md:border-slate-600 rounded-xl ">
+								<Link to="#projects">Projects</Link>
 							</li>
-							<li className="border border-slate-500 rounded-xl ">
-								<Link to="/blogs">Blogs</Link>
+							<li className="border md:border-1 md:border-slate-600 rounded-xl ">
+								<Link to="#blogs">Blogs</Link>
 							</li>
-							<li className="border border-slate-500 rounded-xl ">
-								<Link to="/contact">Contact</Link>
+							<li className="border md:border-1 md:border-slate-600 rounded-xl ">
+								<Link to="#contact">Contact</Link>
 							</li>
 						</ul>
 					</div>

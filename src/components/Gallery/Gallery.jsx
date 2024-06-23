@@ -1,24 +1,30 @@
-const Gallery = () => {
-  return (
-    <div className="gallery-content">
-      <h2 className="oswald-medium font-bold text-[#262631] text-[1.5rem] lg:text-[7.5rem] text-center">FEATURED WORKS</h2>
-      <ul className="flex justify-between gap-4">
-        <li>
-          img1
-          <img src="https://placehold.co/150x150/coffee/white" alt="photo" />
-        </li>
+import PropTypes from 'prop-types';
 
-        <li>
-          img2
-          <img src="https://placehold.co/150x150/coffee/white" alt="photo" />
-        </li>
-        <li>
-          img3
-          <img src="https://placehold.co/150x150/coffee/white" alt="photo" />
-        </li>
+
+const Gallery = ({imagesURL}) => {
+  imagesURL= [
+    "https://placehold.co/300x300/262631/white",
+    "https://placehold.co/300x300/262631/white",
+    "https://placehold.co/300x300/262631/white",
+    "https://placehold.co/300x300/262631/white",
+    "https://placehold.co/300x300/262631/white",
+    "https://placehold.co/300x300/262631/white",
+  ]
+  return (
+    <div className="gallery-content flex flex-col items-center pb-4 overflow-y-hidden">
+      <h2 className="oswald-medium font-bold text-[#262631] text-[2.5rem] lg:text-[7.5rem] text-center">FEATURED WORKS</h2>
+      <ul className=" grid grid-cols-2 md:grid-cols-3 gap-x-12 px-4 py-4">
+        {imagesURL.map((imageURL, index) => (  
+          <li key={index}  className="rounded-xl my-4"> 
+            <img src={imageURL} alt={`Photo`} /> 
+          </li>
+        ))}
       </ul>
     </div>
   );
 };
+Gallery.propTypes = {
+	imagesURL: PropTypes.array.isRequired,
 
+  };
 export default Gallery;
