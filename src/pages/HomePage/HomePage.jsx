@@ -24,7 +24,7 @@ const HomePage = () => {
           heroImage={
             <img
               className="rounded-[20px] "
-              src="../../src/assets/jumping.jpg"
+              src="../src/assets/jumping.jpg"
               alt="John wearing a t-shirt"
             />
           }
