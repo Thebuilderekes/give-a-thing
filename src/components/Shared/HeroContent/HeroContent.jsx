@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const HeroContent = ({ title, description, content, heroImage }) => {
   return (
     <section className="flex flex-col  items-center py-[3.5rem]">
-      <h1 className="animate-slidein300 opacity-0 text-[2.5rem] lg:text-[7rem] archivo-black-regular p-0 text-[#262631] font-bold">
+      <h1 className="animate-slidein300 opacity-0 text-center text-[2.5rem] lg:text-[7rem] archivo-black-regular p-0 text-[#262631] font-bold">
         {title}
       </h1>
       <h2 className="animate-slidein500 pb-4 opacity-0 text-[1.2rem] lg:text-[2.5rem] p-0 oswald-medium text-[#262631] font-bold">
