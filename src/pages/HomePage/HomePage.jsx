@@ -4,7 +4,7 @@ import SectionContent from '../../components/Shared/SectionContent/SectionConten
 import Gallery from '../../components/Gallery/Gallery';
 import Divider from '../../components/Shared/Divider/Divider';
 import Footer from '../../components/Shared/Footer/Footer';
-
+import JohnImage from '../../assets/jumping.jpg';
 const HomePage = () => {
   const imagesURL = [
     'https://placehold.co/300x300/262631/white',
@@ -24,7 +24,7 @@ const HomePage = () => {
           heroImage={
             <img
               className="rounded-[20px] "
-              src="../src/assets/jumping.jpg"
+              src={JohnImage}
               alt="John wearing a t-shirt"
             />
           }
