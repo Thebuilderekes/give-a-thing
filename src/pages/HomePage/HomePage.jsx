@@ -9,27 +9,27 @@ const HomePage = () => {
   const images = [
     {
       id: 1, // Unique identifier for each image (recommended)
-      src: '../../assets/dread.jpg',
+      src: '../src/assets/dread.jpg',
       alt: 'A person with dreadlocks hairstyle', // Descriptive alt text
     },
     {
       id: 2,
-      src: '../../assets/edidie.jpg',
+      src: '../src/assets/edidie.jpg',
       alt: 'People sitting on the edge of wooden floor overlooking mountains',
     },
     {
       id: 3,
-      src: '../../assets/girl.jpg',
+      src: '../src/assets/girl.jpg',
       alt: 'A young girl wearing a white top on jeans laughing',
     },
     {
       id: 4,
-      src: '../../assets/girlssmiling.jpg',
+      src: '../src/assets/girlssmiling.jpg',
       alt: 'one man and two women sitting and having a chat', 
     },
     {
       id: 5,
-      src: '../../assets/people.jpg',
+      src: '../src/assets/people.jpg',
       alt: 'A group of people jumping in excitement with legs spread apart', 
     },
    
