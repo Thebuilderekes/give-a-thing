@@ -9,7 +9,7 @@ const SectionContent = ({ title, content }) => {
       <h2 className="w-full text-center md:text-left md:w-2/3 oswald-medium font-bold text-[#262631] text-[2.5rem] lg:text-[4rem]">
         {title}
       </h2>
-      <div className="w-full md:w-1/3 text-[1rem] lg:text-[1.2rem] oswald-light">
+      <div className="w-full md:w-1/3 text-[1.5rem] lg:text-[1.6rem] oswald-light">
         {content}
       </div>
     </section>
