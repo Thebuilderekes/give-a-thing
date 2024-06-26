@@ -4,10 +4,10 @@ import SectionContent from '../../components/Shared/SectionContent/SectionConten
 import Gallery from '../../components/Gallery/Gallery';
 import Divider from '../../components/Shared/Divider/Divider';
 import Footer from '../../components/Shared/Footer/Footer';
-import JohnImage from '../../assets/jumping.jpg';
-import img1 from "../../assets/dread.jpg";
+import JohnImage from '../../assets/dread.jpg';
+import img1 from "../../assets/jumping.jpg";
 import img2 from "../../assets/girl.jpg";
-import img3 from "../../assets/dread.jpg";
+import img3 from "../../assets/friends.jpg";
 import img4 from "../../assets/edidie.jpg";
 import img5 from "../../assets/people.jpg";
 import img6 from "../../assets/girlssmiling.jpg";
@@ -16,7 +16,8 @@ const HomePage = () => {
     {
       id: 1, 
       src: img1,
-      alt: 'A person with dreadlocks hairstyle', 
+      alt:"John jumping in air with sun behind his back",
+      
     },
     {
       id: 2,
@@ -27,7 +28,7 @@ const HomePage = () => {
     {
       id: 3,
       src: img3,
-      alt: 'A person with dreadlocks hairstyle', 
+      alt: 'three women hugging and walking in the beach', 
     },
     {
       id: 4,
@@ -53,12 +54,13 @@ const HomePage = () => {
       <main className="mx-[1rem] lg:mx-[2rem] bg-slate-300">
         <HeroContent
           title="JOHN GRIFFITH"
+          job = "PHOTOGRAPHER"
           description="Capture the best moments of your life."
           heroImage={
             <img
               className="rounded-[20px]"
               src={JohnImage}
-              alt="John jumping in air with sun behind his back"
+              alt="John with dreadlocks hair sitting and leaning agaist a wall"
             />
           }
           content={

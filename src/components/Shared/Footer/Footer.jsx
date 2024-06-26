@@ -7,7 +7,7 @@ const Footer = ({ email, socials, attributes }) => {
         <div>{email}</div>
         <div>{socials}</div>
       </div>
-      <div className="text-center oswald-light text-[0.4rem] md:text-[0.9rem]">
+      <div className="text-center oswald-light text-[0.6rem] md:text-[0.9rem]">
         <div>{attributes}</div>
       </div>
     </footer>

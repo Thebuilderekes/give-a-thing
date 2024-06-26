@@ -61,12 +61,6 @@ const Navbar = () => {
                 <Link to="/#projects">Projects</Link>
               </li>
               <li
-                className="border-0 md:border md:border-slate-600 md:rounded-xl "
-                onClick={handleNavClick}
-              >
-                <Link to="#blogs">Blogs</Link>
-              </li>
-              <li
                 className="border-0 md:border md:border-slate-600 rounded-xl "
                 onClick={handleNavClick}
               >
