@@ -25,7 +25,7 @@ const HomePage = () => {
     {
       id: 4,
       src: '../../assets/girlssmiling.jpg',
-      alt: "one man and two women sitting and having a chat', 
+      alt: 'one man and two women sitting and having a chat', 
     },
     {
       id: 5,
