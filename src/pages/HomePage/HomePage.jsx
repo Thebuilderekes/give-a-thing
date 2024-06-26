@@ -9,33 +9,33 @@ const HomePage = () => {
   const images = [
     {
       id: 1, // Unique identifier for each image (recommended)
-      src: '../src/assets/dread.jpg',
+      src: '../../assets/dread.jpg',
       alt: 'A person with dreadlocks hairstyle', // Descriptive alt text
     },
     {
       id: 2,
-      src: '../src/assets/edidie.jpg',
+      src: '../../assets/edidie.jpg',
       alt: 'People sitting on the edge of wooden floor overlooking mountains',
     },
     {
       id: 3,
-      src: '../src/assets/girl.jpg',
-      alt: 'A young girl wearing a white top on jeans laughing', // More specific description
+      src: '../../assets/girl.jpg',
+      alt: 'A young girl wearing a white top on jeans laughing',
     },
     {
       id: 4,
-      src: '../src/assets/girlssmiling.jpg',
-      alt: "one man and two women sitting and having a chat', // Detailed description",
+      src: '../../assets/girlssmiling.jpg',
+      alt: "one man and two women sitting and having a chat', 
     },
     {
       id: 5,
-      src: '../src/assets/people.jpg',
-      alt: 'A group of people jumping in excitement with legs spread apart', // Descriptive alt text
+      src: '../../assets/people.jpg',
+      alt: 'A group of people jumping in excitement with legs spread apart', 
     },
-    // Consider adding a check to avoid duplicate images (optional)
+   
     {
       id: 6, // Add an ID if originally missing
-      src: '../src/assets/dread.jpg', // Assuming it's a different image
+      src: '../src/assets/dread.jpg',
       alt: 'Another person with dreadlocks hairstyle (if applicable)',
     },
   ];
