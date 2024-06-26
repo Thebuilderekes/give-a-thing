@@ -5,38 +5,45 @@ import Gallery from '../../components/Gallery/Gallery';
 import Divider from '../../components/Shared/Divider/Divider';
 import Footer from '../../components/Shared/Footer/Footer';
 import JohnImage from '../../assets/jumping.jpg';
+import img1 from "../../assets/dread.jpg";
+import img2 from "../../assets/girl.jpg";
+import img3 from "../../assets/dread.jpg";
+import img4 from "../../assets/edidie.jpg";
+import img5 from "../../assets/people.jpg";
+import img6 from "../../assets/girlssmiling.jpg";
 const HomePage = () => {
   const images = [
     {
-      id: 1, // Unique identifier for each image (recommended)
-      src: '../src/assets/dread.jpg',
-      alt: 'A person with dreadlocks hairstyle', // Descriptive alt text
+      id: 1, 
+      src: img1,
+      alt: 'A person with dreadlocks hairstyle', 
     },
     {
       id: 2,
-      src: '../src/assets/edidie.jpg',
-      alt: 'People sitting on the edge of wooden floor overlooking mountains',
-    },
-    {
-      id: 3,
-      src: '../src/assets/girl.jpg',
+      src: img2,
+
       alt: 'A young girl wearing a white top on jeans laughing',
     },
     {
+      id: 3,
+      src: img3,
+      alt: 'A person with dreadlocks hairstyle', 
+    },
+    {
       id: 4,
-      src: '../src/assets/girlssmiling.jpg',
-      alt: 'one man and two women sitting and having a chat', 
+      src: img4, 
+      alt: 'People sitting on the edge of wooden floor overlooking mountains',
     },
     {
       id: 5,
-      src: '../src/assets/people.jpg',
-      alt: 'A group of people jumping in excitement with legs spread apart', 
+      src: img5, 
+      alt: 'A group of people jumping in excitement with arms and legs spread apart', 
     },
    
     {
-      id: 6, // Add an ID if originally missing
-      src: '../src/assets/dread.jpg',
-      alt: 'Another person with dreadlocks hairstyle (if applicable)',
+      id: 6, 
+      src: img6, 
+      alt: 'one man and two women sitting on a ledge with a tree behind them while smiling', 
     },
   ];
 
