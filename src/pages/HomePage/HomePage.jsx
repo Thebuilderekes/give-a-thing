@@ -1,4 +1,5 @@
 import Navbar from '../../components/Shared/Header/Navbar';
+import { Link } from 'react-router-dom';
 import HeroContent from '../../components/Shared/HeroContent/HeroContent';
 import SectionContent from '../../components/Shared/SectionContent/SectionContent';
 import Gallery from '../../components/Gallery/Gallery';
@@ -64,16 +65,16 @@ const HomePage = () => {
             />
           }
           content={
+            <div className=" flex flex-col items-center">
             <p className="text-slate-200">
               I specialize in creating stunning visuals that tell your story.
               Whether you're looking for captivating portraits, breathtaking
               landscape shots, or dynamic event photography, I'm here to bring
-              your vision to life. <br/> <br/> 
-             I offer a range of services to meet your needs, from
-              professional headshots to capturing the magic of your special day.{' '}
-              Let's collaborate and create timeless photographs you'll cherish
-              forever.
+              your vision to life. 
             </p>
+
+          <Link to="/#contact"className="bg-slate-300 text-center p-1 w-40 mt-4 archivo-black-regular text-[#262631] hover:bg-slate-400 hover:text-[#232323]">Contact</Link>
+            </div>
           }
         />
         <Divider />
@@ -99,23 +100,24 @@ const HomePage = () => {
 
         <Footer
           email={
-            <div>
-              <p className="text-slate-200">Say Hello</p>
-              <p className="underline">johnexampl@gmail.com</p>
-            </div>
+            <dl>
+              <dt className="text-slate-200">Contact</dt>
+              <dd className="underddne">johnexampl@gmail.com</dd>
+            </dl>
           }
           socials={
-            <ul>
-              <li className="hover:text-slate-300">
+            <dl>
+              <dt className="hidden sr-only">Socials media links</dt>
+              <dd className="hover:text-slate-300">
                 <a href="#">Instagram</a>
-              </li>
-              <li className="hover:text-slate-300">
+              </dd>
+              <dd className="hover:text-slate-300">
                 <a href="#">Twitter</a>
-              </li>
-              <li className="hover:text-slate-300">
+              </dd>
+              <dd className="hover:text-slate-300">
                 <a href="#">YouTube</a>
-              </li>
-            </ul>
+              </dd>
+            </dl>
           }
           attributes={
             <div className="text-slate-100">

@@ -13,7 +13,7 @@ const HeroContent = ({ title, job, description, content, heroImage }) => {
         {description}
       </h3>
       <div className="animate-slidein700 h-auto opacity-0 flex flex-col-reverse md:flex-row px-2 lg:px-4 gap-[2.5rem] mt-4">
-        <div className="bg-[#262631] text-[1.3rem] oswald-light w-auto lg:w-1/2 text-white p-[1.2rem] lg:p-[2.5rem] rounded-[20px]">
+        <div className="bg-[#262631] text-[1.5rem] md:text-[2rem] oswald-light w-auto lg:w-1/2 text-white p-[1.2rem] lg:p-[2.5rem] rounded-[20px]">
           {content}
         </div>
         <div className=" rounded-[20px] w-auto lg:w-1/2">{heroImage}</div>
