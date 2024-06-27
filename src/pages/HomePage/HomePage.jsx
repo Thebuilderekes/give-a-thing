@@ -68,10 +68,9 @@ const HomePage = () => {
               I specialize in creating stunning visuals that tell your story.
               Whether you're looking for captivating portraits, breathtaking
               landscape shots, or dynamic event photography, I'm here to bring
-              your vision to life. <br />
-              <br /> I offer a range of services to meet your needs, from
+              your vision to life. <br/> <br/> 
+             I offer a range of services to meet your needs, from
               professional headshots to capturing the magic of your special day.{' '}
-              <br />
               Let's collaborate and create timeless photographs you'll cherish
               forever.
             </p>
