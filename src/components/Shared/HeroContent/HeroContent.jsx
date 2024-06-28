@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const HeroContent = ({ title, job, description, content, heroImage }) => {
   return (
-    <section className="flex flex-col  items-center">
+    <section className="flex flex-col  items-center pt-[5rem]">
       <h1 className="animate-slidein300 opacity-0 text-center text-[2rem] lg:text-[7rem] archivo-black-regular p-0 text-[#262631] font-bold">
         {title}
       </h1>
